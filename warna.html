@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Warna</title>
+
+    <style>
+      body {
+        text-align: center;
+        min-height: 100vh;
+      }
+      button {
+        cursor: pointer;
+        padding: 0.75rem;
+        border-radius: 0.25rem;
+        border: none;
+        margin: 0 1rem;
+      }
+      .btn-red:hover {
+        background-color: red;
+      }
+      .btn-blue:hover {
+        background-color: blue;
+      }
+      .btn-yellow:hover {
+        background-color: yellow;
+      }
+      .aqua {
+        background-color: aqua;
+      }
+      .kotak1 {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0.5rem auto;
+        background-color: red;
+        border-radius: 50%;
+      }
+      .kotak2 {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0.5rem auto;
+        background-color: green;
+        border-radius: 50%;
+      }
+      .kotak3 {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0.5rem auto;
+        background-color: blue;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Latihan Warna</h1>
+
+    <!-- <button class="btn-red">Red</button>
+    <button class="btn-blue">Blue</button>
+    <button class="btn-yellow">Yellow</button>
+    <button class="btn-white">white</button> -->
+
+    <button type="button" id="warna">Ubah Warna</button>
+    <br /><br /><br />
+    <div class="kotak1"></div>
+    <input type="range" name="merah" id="" min="0" max="255" />
+    <div class="kotak2"></div>
+    <input type="range" name="hijau" id="" min="0" max="255" />
+    <div class="kotak3"></div>
+    <input type="range" name="biru" id="" min="0" max="255" />
+
+    <script src="js/warna.js"></script>
+  </body>
+</html>
